@@ -44,7 +44,7 @@ body {
   color: white;
   padding: 10px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -56,7 +56,7 @@ body {
   color: white;
   padding: 10px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -67,7 +67,7 @@ body {
   color: white;
   padding: 10px;
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .Hero {
   background-image: url("./assets/hero-bg.png");
@@ -146,12 +146,13 @@ body {
 }
 .cards-section {
   display: flex;
-  f
+  
   justify-content: center;
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .icon {
@@ -173,7 +174,7 @@ body {
 
   .card-p {
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.589);
+    color: slategrey;
     text-align: justify;
   } 
 
@@ -199,7 +200,7 @@ body {
   font-size: 14px;
   text-align: center;
   max-width: 600px;
-  color: rgba(0, 0, 0, 0.489);
+  color: slategrey;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -213,7 +214,7 @@ body {
 }
 
 .Ready-think {
-  background-color: rgb(252, 237, 218);
+  background-color: beige;
   width: 80%;
   margin: 0 auto;
   padding: 50px;
@@ -256,7 +257,7 @@ font-size: smaller;
   color: white;
   padding: 10px 20px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 8px;
  
   gap: 10px;
   margin-top: 20px;
@@ -264,12 +265,12 @@ font-size: smaller;
 }
 .ready-pp{
   font-size: small;
-  color: rgba(0, 0, 0, 0.589);
+  color: slategrey;
   margin-bottom: 20px;
 }
 footer {
   height: 400px;
-  background-color: rgb(8, 2, 91);
+  background-color: rgb(14, 12, 40);
   color: white;
   text-align: center;
   align-items: center;
@@ -290,4 +291,12 @@ footer {
 .footer-p{
   font-size: small;
   color: white;
+}
+
+
+
+button:hover {
+  background-color: rgb(237, 71, 56);
+  transition: 2s;
+  cursor: pointer;
 }
